@@ -21,10 +21,10 @@ Formula Drifter is a Unity-based multiplayer top-down racing game. It features F
 1. Clone or download the repository.
 2. Open Build/FDrifter 4-30-24
 3. Select Host client or Shared Client multiplayer style. (SharedClient is the most recent)
+   
 Shared Client vs. Host Client
 
 Host Client: The player who creates the game lobby. They run both the game server logic and play as a client at the same time. The host is responsible for synchronizing the game state for all other players.
-
 Shared Client: Any other player who joins the lobby. They connect to the host client, receive game state updates, and send their inputs to be processed by the host.
 
 4. Open the Formula Drifter executable application
